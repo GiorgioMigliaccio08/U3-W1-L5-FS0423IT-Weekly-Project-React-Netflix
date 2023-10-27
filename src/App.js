@@ -7,7 +7,7 @@ import NavBar from "./Components/NavBar";
 
 // IMPORTO I COMPONENTI DA REACT-BOOTSTRAP
 
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 // IMPORTO I MIEI COMPONENTI JSX CON LE RISPETTIVE CATEGORIE DI FILMS
 
