@@ -21,7 +21,7 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 // IMPLEMENTO LA STRUTTURA DELLA MIA NAV
 
-const MyNav = (props) => {
+const NavBar = (props) => {
   return (
     <>
       <Navbar expand="lg" variant="dark" bg="dark" fluid>
@@ -106,4 +106,4 @@ const MyNav = (props) => {
   );
 };
 
-export default MyNav;
+export default NavBar;

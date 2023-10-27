@@ -32,7 +32,9 @@ const FilmsDisney = (props) => {
 
   return (
     <>
-      <h3 className="fw-bold fs-4 text-white ms-3 mt-3 mb-3">Film Disney</h3>
+      <h3 className="fw-bold fs-4 text-white ms-3 mt-3 mb-3 fluid ">
+        Film Disney
+      </h3>
       <Container fluid>
         {isLoading && !error && (
           <Spinner animation="border" role="status">
@@ -44,16 +46,11 @@ const FilmsDisney = (props) => {
             {error ? error : "Errore nel trovare i film"}
           </Alert>
         )}
-        <div className="row">
+        <div className="d-flex sm-col-12  md-col-3 lg-col-8">
           {film.map((movie) => (
-            <div
-              className=" col-sm-12 col-md-6 col-lg-1 me-12"
-              key={movie.imdbID}
-            >
-              <Card className="netflix-card w-200 h-200">
-                <Card.Img src={movie.Poster} className="h-100" />
-              </Card>
-            </div>
+            <Card key={movie.imdbID} className="netflix-card">
+              <Card.Img src={movie.Poster} className="h-100" />
+            </Card>
           ))}
         </div>
       </Container>

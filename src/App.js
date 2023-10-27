@@ -25,9 +25,9 @@ function App() {
     <div className="App" d-flex>
       <NavBar fluid />
       <Container fluid>
-        <FilmsPixar />
-        <FilmsDisney />
-        <FilmsMarvel />
+        <FilmsPixar fluid />
+        <FilmsDisney fluid />
+        <FilmsMarvel fluid />
       </Container>
       <Footer />
     </div>
