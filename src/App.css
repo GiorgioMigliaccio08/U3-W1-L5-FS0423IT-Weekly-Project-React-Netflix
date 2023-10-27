@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.netflix-card {
+  width: 240px;
+  height: 360px;
+  border: none;
+  border-radius: 0;
+  margin-right: 10px;
+}
+
+.App {
+  background-color: #212529;
+}
