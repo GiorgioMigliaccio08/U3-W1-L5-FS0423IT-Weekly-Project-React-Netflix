@@ -44,10 +44,10 @@ const FilmsMarvel = (props) => {
             {error ? error : "Errore nel trovare i film"}
           </Alert>
         )}
-        <div className="d-flex sm={12}  md={4} lg={8}">
+        <div className="d-flex sm={12}  md={4} lg={8} ">
           {film.map((movie) => (
             <Card key={movie.imdbID} className="netflix-card">
-              <Card.Img src={movie.Poster} className="h-100" />
+              <Card.Img src={movie.Poster} className="h-100 me-4" />
             </Card>
           ))}
         </div>
