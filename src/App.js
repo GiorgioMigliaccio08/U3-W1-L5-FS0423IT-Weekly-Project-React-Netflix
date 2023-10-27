@@ -7,7 +7,7 @@ import NavBar from "./Components/NavBar";
 
 // IMPORTO I COMPONENTI DA REACT-BOOTSTRAP
 
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 // IMPORTO I MIEI COMPONENTI JSX CON LE RISPETTIVE CATEGORIE DI FILMS
 
@@ -25,9 +25,9 @@ function App() {
     <div className="App" d-flex>
       <NavBar fluid />
       <Container fluid>
-        <FilmsPixar fluid />
-        <FilmsDisney fluid />
-        <FilmsMarvel fluid />
+        <FilmsPixar />
+        <FilmsDisney />
+        <FilmsMarvel />
       </Container>
       <Footer />
     </div>

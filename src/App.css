@@ -48,3 +48,8 @@
 .App {
   background-color: #212529;
 }
+
+.card {
+  width: 150px;
+  height: 150px;
+}

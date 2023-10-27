@@ -8,9 +8,9 @@ class Footer extends Component {
         <footer className="bg-dark text-secondary mt-5">
           <Container className="py-4">
             <Row>
-              <Col lg={12}>
+              <Col lg={12} sm={12}>
                 <Row>
-                  <Row md={4} className="text center">
+                  <Row md={4} sm={4} className="text center">
                     <p>Audio and Subtitles</p>
                     <p>Media Center</p>
                     <p> Privacy</p>
